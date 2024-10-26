@@ -3,17 +3,18 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa";
+import Logo from './image/logowhite.png'
 
 const Fotter = () => {
   return (
     <> 
-    <div className='w-full bg-zinc-800'> 
-    <div className='w-90 m-auto flex  text-white  py-5'>
-        <div className='w-3/12'>
-        <p className='text-5xl text-center mb-5 uppercase'> zakatspeed</p>
+    <div className='w-full  bg-zinc-800'> 
+    <div className='w-90 m-auto h-min flex  text-white py-5  '>
+        <div className='w-3/12 text-center'>
+        <img className='h-[120px] m-auto ' src={Logo} alt='logo'/> 
 
 
-        <div className='w-full flex gap-5 justify-center items-center'> 
+        <div className='w-full flex gap-5 justify-center items-center mt-7'> 
             <div className='  text-3xl'><FaFacebookF /> </div>
             <div className='  text-3xl'><FaYoutube /> </div>
             <div className='  text-3xl'><FaLinkedin /> </div>
@@ -21,34 +22,34 @@ const Fotter = () => {
         </div>
         
          </div>
-        <div className='w-3/12 '>
-        <p className='text-2xl mb-5'> Zakat Network</p>
+        <div className='w-3/12  px-5'>
+        <p className='text-2xl mb-5'> যাকাত নেটওয়ার্ক</p>
         <ul className='text-base  leading-7'>
-            <li> Zakat Calculation</li>
-            <li>Zakat Book </li>
-            <li>Zakat Fund </li>
-            <li>Donor Network </li>
-            <li>Recipient Network </li>
+            <li> যাকাত হিসাব</li>
+            <li>যাকাত বই </li>
+            <li>যাকাত তহবিল </li>
+            <li>দাতা নেটওয়ার্ক </li>
+            <li>গ্রহিতা নেটওয়ার্ক </li>
         </ul>
          </div>
         <div className='w-3/12'>
-        <p className='text-2xl mb-5'> Islamic Products</p>
+        <p className='text-2xl mb-5'> ইসলামিক পণ্য </p>
         <ul className='text-base leading-7'>
-            <li> Qard al-Hasan</li>
-            <li>Islamic Bank </li>
-            <li>Islamic Insurance </li>
-            <li>Sukuk Bond </li>
+            <li> কর্জে আল হাসনা</li>
+            <li>ইসলামিক ব্যাংক </li>
+            <li>ইসলামিক ইন্সুরেন্স  </li>
+            <li>সুকুক বন্ড </li>
             
         </ul>
          </div>
-        <div className='w-3/12'>
-        <p className='text-2xl mb-5'> Approval/Services</p>
+        <div className='w-3/12 '>
+        <p className='text-2xl mb-5'> সেবা সমূহ</p>
         <ul className='text-base leading-7'>
-            <li> Zakat Collection</li>
-            <li>Distribution </li>
-            <li>Research Cell </li>
-            <li>Financial System </li>
-            <li>Institutional Activities </li>
+            <li> যাকাত সংগ্রহ</li>
+            <li>যাকাত বিপণন </li>
+            <li>গবেষণাগার  </li>
+            <li>সমবায় আর্থিক ব্যবস্থা</li>
+            <li>প্রাতিষ্ঠানিক যাকাত কার্যক্রম </li>
             
         </ul>
         

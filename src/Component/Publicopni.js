@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Publicopni = () => {
+const Publicopni = ({deta2}) => {
   return (
-    <div className='w-full mb-4'>
-        <p className='text-xl'> Demo name</p>
-        <p className='text-sm'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet purus eu lacus tincidunt hendrerit. Pellentesque pretium ullamcorper posuere. Phasellus ultrices sollicitudin orci non gravida. Vivamus nec hendrerit arcu, in sagittis justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit purus lorem, nec aliquet ligula interdum sed. </p>
+    <div className='w-full mb-5'>
+        <p className='text-xl mb-3'> {deta2.name}</p>
+        <p className='text-sm'>{deta2.dic} </p>
       
     </div>
   )
