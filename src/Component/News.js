@@ -6,7 +6,7 @@ const News = () => {
       <div className="absolute whitespace-nowrap animate-scroll">
         <p className="inline-block text-xl font-semibold px-8 ">
             
-        ♦ 100% Interest Free Loans for the Poor and Disadvantaged. ♦ No Interest ♦ No Processing Fee ♦ No Hidden Charge ♦ No Service Charge ♦ No Application Fee ♦ No Profit. ♦ ১০০% সুদ ও সার্ভিস চার্জ বিহীন ঋণ - দরিদ্র ও সুবিধাবঞ্চিতদের জন্য। ♦ 100% Interest Free Loans for the Poor and Disadvantaged. ♦ No Interest ♦ No Processing Fee ♦ No Hidden Charge ♦ No Service Charge ♦ No Application Fee ♦ No Profit. ♦ ১০০% সুদ ও সার্ভিস চার্জ বিহীন ঋণ - দরিদ্র ও সুবিধাবঞ্চিতদের জন্য। ♦  100% Interest Free Loans for the Poor and Disadvantaged. ♦ No Interest ♦ No Processing Fee ♦ No Hidden Charge ♦ No Service Charge ♦ No Application Fee ♦ No Profit. ♦ ১০০% সুদ ও সার্ভিস চার্জ বিহীন ঋণ - দরিদ্র ও সুবিধাবঞ্চিতদের জন্য। ♦ 100% Interest Charge Free Loans for the Poor and Disadvantaged. 
+        দারিদ্র্য বিমোচনে, কর্মসংস্থান সৃষ্টিতে, ধনী দরিদ্র বৈষম্য হ্রাসে - জাকাতে আসবে সাফল্য/২০০ কোটি মুসলমান জনসংখ্যার মাঝে, আমরা পোঁছে দিব জাকাতের বার্তা। 
         </p>
        
       </div>
