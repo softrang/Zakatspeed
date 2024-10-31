@@ -6,8 +6,8 @@ const PublicOp = () => {
   const {opnion} =useDeta()
   return (
     <div className='w-full py-5'>
-    <div className='w-90 m-auto  flex '>
-        <div className='w-4/12  pr-5 '>
+    <div className='w-90 m-auto xsm:flex xsm:flex-col-reverse lg:flex-row  '>
+        <div className='xsm:w-full lg:w-4/12  pr-5 '>
         <p className='text-xl  py-5'> আপনার মতামত দিন</p>
         <form>
             <label className='block text-lg'>নাম</label>
@@ -20,10 +20,10 @@ const PublicOp = () => {
             </form>
         
         </div>
-        <div className='w-8/12  pl-5'>
+        <div className='xsm:w-full lg:w-8/12  pl-5'>
         <p className='text-2xl py-5 '>জনগণের মতামতের তালিকা</p>
-       {opnion.map((items)=>(
-        <Publicopni deta2 ={items}/>
+       {opnion.map((items, index)=>(
+        <Publicopni key={index} deta2 ={items}/>
        ))}
       
        

@@ -2,9 +2,9 @@ import React from 'react'
 
 
 const Reqdonetion = ({deta1}) => {
-  console.log(deta1.title1)
+ 
   return (
-    <div className='w-3/12  flex items-center justify-center flex-col  shadow-inner shadow-green-600 py-4 rounded-xl'>
+    <div className='xsm:w-full lsm:w-5/12 lg:w-3/12  flex  items-center justify-center flex-col  shadow-inner shadow-green-600 py-4 rounded-xl'>
         <div className=' text-4xl mb-3'>{deta1.icon1}</div>
         <p className='text-center text-xl mb-4'> {deta1.title1}</p>
         <p className='text-base w-11/12 text-center'>{deta1.dic1} </p>

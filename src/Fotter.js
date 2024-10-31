@@ -3,12 +3,12 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa";
-import Logo from './image/logowhite.png'
+import Logo from './image/logo.png'
 
 const Fotter = () => {
   return (
     <> 
-    <div className='w-full  bg-zinc-800'> 
+    <div className='w-full  bg-zinc-800 hidden'> 
     <div className='w-90 m-auto h-min flex  text-white py-5  '>
         <div className='w-3/12 text-center'>
         <img className='h-[120px] m-auto ' src={Logo} alt='logo'/> 
@@ -23,7 +23,7 @@ const Fotter = () => {
         
          </div>
         <div className='w-3/12  px-5'>
-        <p className='text-2xl mb-5'> যাকাত নেটওয়ার্ক</p>
+        <p className='text-2xl mb-5'> যাকাত নেটওয়ার্ক </p>
         <ul className='text-base  leading-7'>
             <li> যাকাত হিসাব</li>
             <li>যাকাত বই </li>

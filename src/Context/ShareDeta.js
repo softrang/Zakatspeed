@@ -12,6 +12,24 @@ export const useDeta = () => useContext(ShareDeta);
 
 export const DetaProvider = ({ children }) => {
 
+const bigslide =[
+  {
+    title:"আমাদের প্রথম দান দাতা "
+
+  }, 
+  {
+    title:"আমাদের প্রথম ঋণ গ্রহিতা  "
+
+  }, 
+  {
+    title:"আমাদের প্রথম প্রতিষ্ঠাবার্ষিকী অনুষ্ঠান  "
+
+  }, 
+]
+
+
+
+
 const donate =[
   {
     icon1:<FaDonate /> , title1:"উদারভাবে দান করুন" ,dic1:"গুরুত্বপূর্ণ উদ্দেশ্যগুলিকে সমর্থন করতে এবং ইতিবাচক পরিবর্তন আনতে উদারভাবে দান করুন।"
@@ -68,8 +86,9 @@ const opnion=[
 
 
 
+
 return (
-    <ShareDeta.Provider value={{donate, service, opnion}}>
+    <ShareDeta.Provider value={{bigslide, donate, service, opnion}}>
       {children}
     </ShareDeta.Provider>
   );
